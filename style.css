@@ -157,6 +157,26 @@ body {
         
     }
 }
+@media (min-width: 1600px) {
+  .logo_img
+    {
+        width: 500px;
+        height: 140px;
+        margin-left: 550px;
+    }
+    .main
+    {
+        width: 600px;
+        height: 600px;
+        margin-left: 500px;
+    }
+    .btn
+    {
+        margin-left: 700px;
+        margin-top: 30px;
+        
+    }
+}
 @media (min-width: 1024px) {
   .logo_img
     {
