@@ -4,7 +4,7 @@ body {
   font-size: 2em;
   text-transform: ;
     background-color: #f4f5f6;
-  color: #666666;
+  color: #f4f5f6;
   width: 100%;
   overflow: hidden;
   
@@ -31,21 +31,8 @@ body {
      
   
 }
-.header2
-{
-  
-  top: 11%;
-  left: 46%;
-  right: 46%
-  transform: translate(-11%,-46%);
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-        
-  
-}
-.header:hover
+
+a:hover
 {
   transition: 0.5s;
   box-shadow: 0 0 5px black ,
@@ -60,32 +47,48 @@ body {
     pointer-events: none;
 }
 
-.header1
+
+.btn
 {
-  position:absolute;
-  top: 135%;
-  left: 75%;
-  transform: translate(-135%,-75%);
+    margin-left: 400px;
 }
-@media only screen and (max-width: 900px) {
-  #header-img {
-    width: 409px;
-    height: 403px;
-      position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-   
-  }
+@media only screen and (max-width: 600px) {
+      .btn {
+        margin-left: 320px;
+          margin-top: 85px; 
+      }
+     .img_div
+     {
+        margin-left: 80px;
+     }
 }
-@media only screen and (max-width: 200px) {
-  #header-img {
-    width: 309px;
-    height: 303px;
-      position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-   
-  }
+@media only screen and (max-width: 1920px) {
+      .btn {
+        margin-left: 350px;
+         
+      }
+    .logo
+    {
+        margin-left: 80px;
+    }
+     .img_div
+     {
+         
+        margin-left: 120px;
+     }
+}
+@media only screen and (max-width: 3840px) {
+      .btn {
+        margin-left: 350px;
+         
+      }
+    .logo
+    {
+        margin-left: 80px;
+    }
+     .img_div
+     {
+         
+        margin-left: 120px;
+     }
 }
