@@ -93,16 +93,16 @@ a:hover
 }
 @media only screen and (max-width: 3840px) {
       .btn {
-        margin-left: 350px;
-         
+        margin-left: 1250px;
+         margin-top: 20px;
       }
     .logo
     {
-        margin-left: 80px;
+        margin-left: 900px;
     }
      .img_div
      {
          
-        margin-left: 120px;
+        margin-left: 1000px;
      }
 }
