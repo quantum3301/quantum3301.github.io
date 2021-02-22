@@ -260,6 +260,25 @@ body {
         
     }
 }
-
+@media  (min-width: 2160px) {
+  .logo_img
+    {
+        width: 600px;
+        height: 155px;
+        margin-left: 700px;
+    }
+    .main
+    {
+        width: 550px;
+        height: 550px;
+        margin-left: 700px;
+    }
+    .btn
+    {
+        margin-left: 900px;
+        margin-top: 80px;
+        
+    }
+}
 
 
