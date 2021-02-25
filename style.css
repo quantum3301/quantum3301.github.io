@@ -143,28 +143,6 @@ body {
     }
 }
 
-@media (min-width: 1920px) {
-  .logo_img
-    {
-        width: 600px;
-        height: 155px;
-        margin-left: 700px;
-    }
-    .main
-    {
-        width: 600px;
-        height: 600px;
-        margin-left: 700px;
-    }
-    .btn
-    {
-        margin-left: 900px;
-        margin-top: 80px;
-        
-    }
-}
-
-
 
 
 @media  (min-width: 1988px) {
@@ -229,5 +207,27 @@ body {
         
     }
 }
+
+@media (min-width: 1920px) {
+  .logo_img
+    {
+        width: 600px;
+        height: 155px;
+        margin-left: 700px;
+    }
+    .main
+    {
+        width: 600px;
+        height: 600px;
+        margin-left: 700px;
+    }
+    .btn
+    {
+        margin-left: 900px;
+        margin-top: 80px;
+        
+    }
+}
+
 
 
